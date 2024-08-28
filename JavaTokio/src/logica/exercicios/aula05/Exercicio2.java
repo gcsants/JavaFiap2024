@@ -6,7 +6,7 @@ public class Exercicio2 {
 		
 		int idade = 10;
 		
-		float salario = (float) 1416.56;
+		float salario = 1416.56f;
 		
 		double preco = 214.99; 
 		
@@ -14,6 +14,13 @@ public class Exercicio2 {
 		System.out.println(salario);
 		System.out.println(preco);
 		
+		String str1 = Integer.toString(idade);
+		String str2 = Float.toString(salario);
+		String str3 = Double.toString(preco);
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		System.out.println(str3);
 		
 		}
 
