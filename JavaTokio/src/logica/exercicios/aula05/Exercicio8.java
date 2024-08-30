@@ -11,14 +11,28 @@ public class Exercicio8 {
 		System.out.println("Digite o valor em reais: ");
 		double reais = sc.nextDouble();
 		
-		System.out.println("Valor em real: " + reais);
+		System.out.println("Valor em Real: " + reais);
 		
-		double dolarAmericano = reais / 5.64;
-		double dolarAmericano2 = reais * 0.18;
+		double dolarAmericano = reais / 5.65;
+		System.out.printf("Valor em Dólar: %.2f\n", dolarAmericano);
 		
-		System.out.println("Valor em dolar: " + dolarAmericano);
-		System.out.println("Valor em dolar2: " + dolarAmericano2);
-
+		double euro = reais / 6.24;
+		System.out.printf("Valor em Euro: %.2f\n", euro);
+		
+		double pesoArgentino = 0.0059 / reais;
+		
+		System.out.printf("Valor em Peso Argentino: %.4f\n", pesoArgentino);
+		
+		double libraEsterlina = 0.14 / reais;
+		
+		System.out.printf("Valor em Libra Esterlina: %.2f\n", libraEsterlina);
+		
+		double iene = 25.91 / reais;
+		
+		System.out.printf("Valor em Iene: %.2f\n", iene);
+		
+		sc.close();
+		
 	}
 
 }

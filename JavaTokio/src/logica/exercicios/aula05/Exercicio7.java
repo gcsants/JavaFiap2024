@@ -15,6 +15,8 @@ public class Exercicio7 {
 		double valorPago = sc.nextDouble();
 		
 		System.out.println("Seu troco é: " + (valorPago - valorProduto));
+		
+		sc.close();
 
 	}
 
