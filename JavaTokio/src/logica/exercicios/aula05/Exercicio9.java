@@ -8,7 +8,7 @@ public class Exercicio9 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Digite um número de 1 a 999: ");
+		System.out.println("Digite um número de 0 a 999: ");
 		int num = sc.nextInt();
 		
 		int centena = (num / 100) * 100;

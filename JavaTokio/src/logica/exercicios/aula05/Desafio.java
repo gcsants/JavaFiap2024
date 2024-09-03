@@ -8,7 +8,7 @@ public class Desafio {
 		
 		// Fazer o cálculo contrário do último exercício (Exercício 10)
 		
-	Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Digite quantos dias vividos vc tem: ");
 		int diasVividos = sc.nextInt();
