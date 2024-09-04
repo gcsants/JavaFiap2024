@@ -14,10 +14,10 @@ public class Exercicio4 {
 		System.out.println("Digite o segundo valor inteiro: ");
 		int valor2 = sc.nextInt();
 		
-		if ((valor1 % valor2) == 0 || ((valor2 % valor1 == 0))) {
-			System.out.println("sao multiplos");
+		if (valor1 % valor2 == 0 || valor2 % valor1 == 0) {
+			System.out.println("Sao multiplos");
 		} else {
-			System.out.println("nao sao multiplos");
+			System.out.println("Nao sao multiplos");
 		}
 		
 		sc.close();

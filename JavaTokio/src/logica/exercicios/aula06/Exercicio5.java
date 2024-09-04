@@ -22,19 +22,28 @@ public class Exercicio5 {
 		switch (operacao) {
 		case '+':
 			resultado = num1 + num2;
+			System.out.println("O resultado e: " + resultado);
 			break;
 		case '-':
 			resultado = num1 - num2;
+			System.out.println("O resultado e: " + resultado);
 			break;
 		case '*':
 			resultado = num1 * num2;
+			System.out.println("O resultado e: " + resultado);
 			break;
 		case '/':
-			resultado = num1 / num2;
-			} 
-	
-			System.out.println("O resultado e: " + resultado);
-			
+			if (num2 != 0) {
+				resultado = num1 / num2;
+				System.out.println("O resultado e: " + resultado);
+			} else {
+				System.out.println("Nao e possivel dividir por 0");
+			}
+			break;
+		default:
+				System.out.println("Operacao invalida");
+		} 
+		 	
 			sc.close();
 	}
 
