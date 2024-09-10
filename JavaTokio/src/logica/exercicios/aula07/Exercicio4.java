@@ -11,9 +11,10 @@ public class Exercicio4 {
 		double valor = 0;
 		double soma = 0;
 
-		System.out.println("Digite 10 valores para que eles sejam somados: ");
+		System.out.println("Digite 10 valores para que eles sejam somados");
 
 		for (int i = 1; i <= 10; i++) {
+			System.out.println("Digite o " + i + "º valor: ");
 			valor = Integer.parseInt(sc.nextLine());
 			soma += valor;
 		}
