@@ -10,7 +10,7 @@ public class Exercicio9 {
 		int numero;
         
         do {
-            System.out.print("Digite um número inteiro positivo: ");
+            System.out.print("Digite um numero inteiro positivo: ");
             numero = sc.nextInt();
             if (numero <= 0) {
                 System.out.println("Erro, o número deve ser positivo.");

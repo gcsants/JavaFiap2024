@@ -4,18 +4,24 @@ import java.util.Scanner;
 
 public class Metodos {
 	
+	// METODOS SEM RETORNO E SEM PARAMETROS/ARGUMENTOS
+	
+	// DECLARAÇÃO DA FUNÇÃO
 	static void saudacao() {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Ola, digite seu nome: ");
+		System.out.println("Digite seu nome: ");
 		String nome = sc.nextLine();
 		
-		System.out.printf("Seja bem vindo ao programa, %s!!", nome);
-		}
-	
+		System.out.println("Seja bem-vindo, " + nome);
+	}
+
 	public static void main(String[] args) {
 		
+		// CHAMADA DA FUNÇÃO
 		saudacao();
+		
+		System.out.println();
 		
 	}
 
