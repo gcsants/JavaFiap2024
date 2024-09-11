@@ -6,11 +6,13 @@ public class Atividade1 {
 		 
 		String nomes[] = {"Ana", "Bia", "Rodrigo", "Bruno"};
 		
-		String nomeTemporario = nomes[0];
+	for (int j = 0; j < nomes.length; j++) {
+		String str = nomes[j];
 		
-		for (int i = 1; i < nomes.length; i++) {
-			System.out.println(nomeTemporario + ", " + nomes[i]);
+		for (int i = j + 1; i < nomes.length; i++) {
+			System.out.println(str + ", " + nomes[i]);
 		}
+	}
 
 	}
 
